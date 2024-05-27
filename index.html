@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../portafolio/VaXeDef.css">
+    <title>VaXe</title>
+    <link rel="icon" href="WhatsApp Image 2024-05-26 at 22.56.24.ico" type="image/x-icon">
+</head>
+<body>
+    <audio id="background-audio" loop>
+        <source src="WhatsApp%20Audio%202024-05-26%20at%2019.05.26.mp3" type="audio/mp3">
+        
+    </audio>
+    <button onclick="document.getElementById('background-audio').play()">Reproducir Música</button>
+
+    <div>
+        <h1>Bienvenida Amor</h1>
+        <h2>Esta es <b>Nuestra</b> página</h2>
+        <p>
+            Espero que disfrutes de este regalo que nos hice a nosotros, nuestra historia en un lugar donde siempre podamos leer, recordar, espero que te guste Amor. <br><br> 
+            Con <b>Amor:</b> Tu Novio.
+        </p>
+
+       
+    </div>
+
+    <div>
+        <p>Nuestra historia empieza en cierto viaje, en cierto bar, donde nos conocimos y ahí nació esto <br>
+        </p>
+    </div>
+
+    <div id="valy">
+        <p>Eh aquí la novia, La princesa, la niña de la relación</p>
+        <img src="WhatsApp Image 2024-05-26 at 22.58.59.jpeg" alt="Novia">
+    </div>
+
+    <div>
+        <p>El Novio</p>
+        <img src="WhatsApp Image 2024-05-26 at 23.00.24.jpeg" alt="Novio">
+    </div>
+
+    <div>
+        <p>Corajon</p>
+        <img src="84c530db-4c2e-4db3-af08-e8bb1c0eff59.jpg" alt="Corajon">
+    </div>
+    <div>
+        <h3>Eh Aqui la pareja</h3>
+        <img src="WhatsApp Image 2024-05-26 at 22.55.09.jpeg" alt="Nosotros">
+
+
+    </div>
+
+
+
+
+    <div id="mensaje">
+        <p>
+            Hola amor, Mucho tiempo desde que estuviste aca ¿No? <br> un tiempo desde que te escribi lo que sentia, a pasado mucho tiempo desde la mayoria de cosas, desde nuestro ultimo beso, ultimo abrazo, asi que te quiero dedicar estas palabras, para que aun en la distancia sepas que <b>Te Amo</b> <br><br>
+            
+            Hemos estado ya un tiempo juntos amor, en ese tiempo e podido ver la mayoria de tus sentimientos, forma de ser,hasta de lo mas pequeño aprendi de vos <br> definitavamente no me arrepiento de ser tu novio <br> Nunca voy a hacerlo, desde que estamos juntos soy Mas feliz mi amor, desde que esta en mi vida solo trajiste cosas buenas <br>Te amo con el corazon amor, amo como podes ser una niña mimada, caprichosa hasta como podes ser la chica mas fuerte que puede haber <br> como aun en la peor tratas de ayudar, eso me gusta de vos <br> es inexplicable lo que me haces sentir, lo que tu simple abrazo me hace sentir, lo que tu sonrisa causa en mi <br> MI amor, te doy esta carta en este lugar asi aun lejos, puedas confirmar que mi corazon siempre te va a pertenecer <br> te amo valy <br> se que no tiene mucho sentido varias palabras, pero se que ninguna es mentira, todo viene de mi corazon, mis sentimientos en palabras, mis emociones en letras <br> Son mis ganas de estar amandote hasta que no pueda mas lo que me hacen escribir estas palabras <br> Te amo vale, amor, sos lo que me impulsa aveces, el pensar en vos, en lo que podemos ser, en lo que Ya somos, me da un subidon el ver tus ojos, tu carita, el sentirte <br> Se que estamos lejos, pero no impide el quererte, tampoco me impide saber que esta Hermosa cada dia <br> la distancia no impide sentir y esto es lo que siento, estos son mis sentimientos amor : TE AMO VALEE, nunca lo voy a negar, esta pagina esta para que siempre lo sepas, ojala te guste, todo lo hice pensando en vos amor, en mi niña, mi novia, mi peque, mi valy <br> jaja, de verdad que no podria pedir mas, teniendote a vos, Gracias por amarme, Gracias por ser mi novia, Se que no se agradece el amor, pero necesito agradecer el que seas vos, el que seas vos. <br>
+
+            <br>
+            Te quiero Val, Mucho. <br>
+
+            <img id="Pulsera" src="WhatsApp Image 2024-05-26 at 22.56.23.jpeg" 
+            alt="Amor">
+
+            
+        </p>
+    </div>
+
+    <div>
+
+        <p>
+            Sos ese lugar al que quiero siempre quiero volver, sos eso que me calma, sos mi Mrs snow <br> Pero nuestro invierno nunca va a terminar, asi que ¿Bailamos?
+        </p>
+        <img src="hqdefault.jpg" alt="Nosotros
+        ">
+        
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const audio = document.getElementById('background-audio');
+            const playPromise = audio.play();
+
+            if (playPromise !== undefined) {
+                playPromise.then(() => {
+                    // La reproducción se inició automáticamente
+                }).catch(error => {
+                    // La reproducción automática fue impedida, mostrar el botón de reproducción
+                    document.querySelector('button').style.display = 'block';
+                });
+            }
+        });
+    </script>
+</body>
+</html>
